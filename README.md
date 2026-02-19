@@ -220,3 +220,18 @@ Example true vs estimated orbit (ECI frame):
 - `src/stk_loader.*`: STK report parser.
 - `src/orbit_propagator.*`: simple 2-body + J2 RK4 propagator.
 - `figures/*`: key figures extracted from the LaTeX paper package.
+
+## Citation
+
+If you find this work useful for your research, please cite our paper:
+
+```bash
+@article{wu2026svgeomagorbit,
+  title={Toward Efficient Accurate Geomagnetic Orbit Determination: Secular Variation Correction and Dipole-Model Filtering},
+  author={Wu, Jin and Zhang, Chengxi and Varatharajoo, Renuganth and He, Wei},
+  journal={Submission to IEEE Transactions on Aerospace and Electronic Systems},
+  year={2026},
+  publisher={Arxiv},
+  url={[https://github.com/zarathustr/SVGeoMagOrbit](https://github.com/zarathustr/SVGeoMagOrbit)}
+}
+```
